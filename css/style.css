@@ -28,6 +28,14 @@ nav {
   margin-bottom: 30px;
   color: #0099ff;
   font-family: 'K2D';
+  margin: 50px;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+}
+
+#navi {
+  margin: 30px;
 }
 
 main {
@@ -43,7 +51,7 @@ main h1 {
   text-transform: uppercase;
 }
 
-s {
+x {
   color: #0099ff;
 }
 
