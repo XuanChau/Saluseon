@@ -21,18 +21,37 @@
     </nav>
 
     <form action="">
-      <label class="container">Parent
-        <input type="checkbox" checked="checked">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">Teacher
-        <input type="checkbox" checked="checked">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">Administrator
-        <input type="checkbox" checked="checked">
-        <span class="checkmark"></span>
-      </label>
+      <h3 id="login">Log In</h3>
+      <div id="radios">
+        <p>
+         <label>
+           <input name="group1" type="radio" checked />
+           <span>Parent</span>
+         </label>
+       </p>
+       <p>
+         <label>
+           <input name="group1" type="radio" />
+           <span>Teacher</span>
+         </label>
+       </p>
+       <p>
+         <label>
+           <input class="with-gap" name="group1" type="radio"  />
+           <span>Administrator</span>
+         </label>
+       </p>
+      </div>
+
+      <div id="userfield">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+      </div>
+
+      <div id="passfield">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+      </div>
     </form>
 
     <!-- <section>
