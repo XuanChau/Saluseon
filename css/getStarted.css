@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Ostrich;
+  src: url(../fonts/OstrichSans-Black.otf);
+}
+
 #choose a {
   display: block;
   max-width: 60%;
@@ -14,8 +19,10 @@ form {
   padding: 30px 40px;
   width: 80%;
   max-width: 600px;
-  border: 1px #bbb solid;
+  border: 1px #ccc solid;
   border-radius: 10px;
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #radios {
@@ -34,4 +41,16 @@ form {
 #userfield input, #passfield input {
   display: block;
   width: inherit;
+}
+
+#skip {
+  background-color: white;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 7px 10px;
+  font-size: 16px;
+}
+
+#skip:hover {
+  cursor: pointer;
 }
