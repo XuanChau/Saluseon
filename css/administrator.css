@@ -52,13 +52,17 @@
 
 #hidden {
   display: none;
+  font-family: 'Ostrich', sans-serif;
+  letter-spacing: 1px;
+}
+
+#hidden-img {
   background-image: url(../img/papers.jpg);
   background-position: center;
   background-size: cover;
   padding: 125px 0 100px 0;
   color: white;
-  font-family: 'Ostrich', sans-serif;
-  letter-spacing: 1px;
+  margin: 0 0 75px 0;
 }
 
 #hidden i {
@@ -71,4 +75,35 @@
 
 #hidden p {
   font-size: 20px;
+}
+
+#hidden .info {
+  font-size: 25px;
+  color: #0099ff;
+}
+
+#options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+}
+
+#options div {
+  padding: 2em 3em;
+  font-size: 16px;
+}
+
+#options div:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+#options h4 {
+  font-size: 25px;
+  color: #0099ff;
+  font-style: italic;
+}
+
+#full-rep {
+  border-right: 1px solid black;
 }
