@@ -47,20 +47,25 @@
 
       <div id="options">
         <div id="full-rep">
-          <i class="fas fa-scroll"></i>
-          <h4>See the full report for this quarter:</h4>
-          <p>Find out which students are having trouble, individual statistics like grades, self-evaluations, and teacher-parent comments.</p>
+          <a href="important.html">
+            <i class="fas fa-scroll"></i>
+            <h4>See the full report for this quarter</h4>
+            <p>Find out which students are having trouble, individual statistics like grades, self-evaluations, and teacher-parent comments.</p>
+          </a>
         </div>
 
-        <div id="short-rep">
-          <i class="fas fa-exclamation-circle"></i>
-          <h4>See the condensed report for this quarter:</h4>
-          <p>Great for printing and for quick intervention. Details such as individual statistics are ommitted.</p>
+        <div onClick="init()" id="short-rep">
+          <a href="">
+            <i class="fas fa-exclamation-circle"></i>
+            <h4>See the condensed report for this quarter</h4>
+            <p>Great for printing and for quick intervention. Details such as individual statistics are ommitted.</p>
+          </a>
         </div>
       </div>
 
     </div>
 
-
+    <script src="../js/important.js"></script>
+    <script src="https://spreadsheets.google.com/feeds/cells/1jt3azMAigRT1SdgdlwmKUpQJ_q3DQRMT_olosWiPbnE/o7limqm/public/values?alt=json-in-script&callback=sheetLoaded"></script>
   </body>
 </html>

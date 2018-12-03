@@ -1,8 +1,3 @@
-function init() {
-  Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/0AmYzu_s7QHsmdDNZUzRlYldnWTZCLXdrMXlYQzVxSFE/pubhtml',
-                   callback: function(data, tabletop) {
-                       console.log(data)
-                   },
-                   simpleSheet: true } )
-}
-window.addEventListener('DOMContentLoaded', init)
+$.get('https://script.googleusercontent.com/macros/echo?user_content_key=-b2ibMtoLxFwOmpTWkzoi_YwDu4f37m2IiDPHwtCUr14YK1mPn-254iF69fNM9n7vFxmpg-x6VReR78_4GkNI0V_l5Uu0Imrm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOQeYEweCA3ohCjJ1FPfsZF0HpIOlZr-iAZLteXxM43ozjVYbzoLtXBxB4FWFTaLcUqhI51p3q1_&lib=MEeppEiMkSeGYzwxyvxOzqQCi_eV0T_wG', function(response) {
+  console.log(response);
+});
